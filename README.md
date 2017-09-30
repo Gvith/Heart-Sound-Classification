@@ -75,7 +75,7 @@ python ml_classifier.py --feat=<path-to-the-feature-extraction-output-file> --mo
 python ml_classifier.py --feat="Dataset/training/output.csv" --module="train-test" --n_maj=700 --n_min=600 --test_size=0.1 --out="Dataset/results/output"
 ```
 
-## NOTE:
+#### NOTE:
 The prediction model operates in two configurations:
 - *train-cross-val* - In this configuration, the random forest classifier is trained on the training data and tested using a 5-fold cross validation set.
 - *train-test* - In this configuration, the random forest classifier is trained on the training data and tested using blind test set.
