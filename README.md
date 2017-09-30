@@ -64,12 +64,12 @@ python ml_classifier.py --feat=<path-to-the-feature-extraction-output-file> --mo
 - *--out*
 
 **Optional:**
-- *--n_maj* - Default = number of minority samples
-- *--n_min* - Default = number of minority samples
-- *--test_size* - Default=0.2
-- *--y_name* - Default="Labels"
+- *--n_maj*(Default = number of minority samples)
+- *--n_min*(Default = number of minority samples)
+- *--test_size*(Default=0.2)
+- *--y_name*(Default="Labels")
 
-Example:
+**Example:**
 
 ```
 python ml_classifier.py --feat="Dataset/training/output.csv" --module="train-test" --n_maj=700 --n_min=600 --test_size=0.1 --out="Dataset/results/output"
