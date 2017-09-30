@@ -4,7 +4,7 @@ This project was developed to analyze heart sounds and identify the normal versu
 
 ## Feature Extraction:
 
-Based on one of the previous works, we extracted the the following set of features.
+Based on [one of the previous works](http://ieeexplore.ieee.org/abstract/document/7868819/), we extracted the the following set of features.
 
 ### Time Domain Features
 The mean and Standard deviations of the below features
